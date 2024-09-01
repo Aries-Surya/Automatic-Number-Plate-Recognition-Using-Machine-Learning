@@ -12,7 +12,7 @@ python -m venv pyenv
 ``` 
 * Create Src & Output Folders 
 ``` bash
-mkdir Src Output
+mkdir Src, Output
 ``` 
 * Install the project dependencies using the following command 
 ```bash
