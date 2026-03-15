@@ -13,7 +13,7 @@ license_plate_detector=YOLO('weights/best.pt')
 
 vehicles=[2,3,5,7]
 # Load the video file you want to run detection on
-cap=cv2.VideoCapture('Src/demo4.mp4')
+cap=cv2.VideoCapture('Src/Input.mp4')
 
 #read frames for an video input 
 frame_nmr = -1
@@ -66,4 +66,4 @@ while ret:
                                                                     'text_score':license_plate_text_scsore}}
                  
 #write results
-write_csv(results,'./mainOut.csv')
+write_csv(results,'mainOut.csv')

@@ -25,14 +25,14 @@ def draw_border(img, top_left, bottom_right, color=(0, 255, 0), thickness=10, li
 results = pd.read_csv('./addMissings.csv')
 
 # load video
-video_path = r'Src\demo3.mp4'
+video_path = r'Src\Input.mp4'
 cap = cv2.VideoCapture(video_path)
 
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')  # Specify the codec
 fps = cap.get(cv2.CAP_PROP_FPS)
 width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-out = cv2.VideoWriter('Output/Demo3.mp4', fourcc, fps, (width, height))
+out = cv2.VideoWriter('Output/output.mp4', fourcc, fps, (width, height))
 
 license_plate = {}
 for car_id in np.unique(results['car_id']):

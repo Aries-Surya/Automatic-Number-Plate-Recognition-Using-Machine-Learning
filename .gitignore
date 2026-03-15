@@ -1,8 +1,14 @@
 /__pycache__
-/anpr
-/Src
+/pyenv
+/etc
 /out.mp4
 /demotest3.csv
 /demo2_interpolated.csv
 /Output
 /anpr_dataset_training.rar
+/weights
+/data-set
+/runs
+.ipynb_checkpoints
+/sort/__pycache__
+/Input
