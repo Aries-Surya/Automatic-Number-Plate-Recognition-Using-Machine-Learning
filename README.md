@@ -105,6 +105,7 @@ flowchart TD
 ```
 
 ![System Architecture](./img/Cloud-Native%20ANPR%20Solution%20Architecture.png)
+![ANPR System Architecture](./img/ANPR%20and%20Vehicle%20Tracking%20AI%20Pipeline.png)
 
 ---
 
